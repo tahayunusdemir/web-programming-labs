@@ -109,6 +109,7 @@ input:focus, textarea:focus {
 
 textarea {
     height: 150px;
+    resize: none;
 }
 
 .submit-btn {
