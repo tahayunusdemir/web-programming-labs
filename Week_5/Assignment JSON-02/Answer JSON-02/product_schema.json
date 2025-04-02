@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Product Schema",
+  "description": "A schema to validate the product.json file",
+  "type": "object",
+  "properties": {
+    "Product": {
+      "type": "object",
+      "properties": {
+        "ProductID": {
+          "type": "string",
+          "description": "The unique identifier for the product",
+          "pattern": "^[0-9]+$" 
+        },
+        "Category": {
+          "type": "string",
+          "description": "The category of the product"
+        },
+        "ProductName": {
+          "type": "string",
+          "description": "The name of the product"
+        },
+        "ProductType": {
+          "type": "string",
+          "description": "The type of the product"
+        },
+        "Price": {
+          "type": "string",
+          "description": "The price of the product",
+          "pattern": "^[0-9]+(\\.[0-9]+)?$"
+        },
+        "Class": {
+          "type": "string",
+          "description": "The class of the product"
+        },
+        "Company": {
+          "type": "string",
+          "description": "The company producing the product"
+        },
+        "Provider": {
+          "type": "object",
+          "description": "Information about the provider of the product",
+          "properties": {
+            "Name": {
+              "type": "string",
+              "description": "The name of the provider"
+            },
+            "City": {
+              "type": "string",
+              "description": "The city where the provider is located"
+            }
+          },
+          "required": ["Name", "City"]
+        }
+      },
+      "required": ["ProductID", "ProductName", "Price", "Provider"]
+    }
+  },
+  "required": ["Product"]
+} 
+
+

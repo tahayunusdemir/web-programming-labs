@@ -1,0 +1,115 @@
+{
+  "estgv": {
+    "academicYear": {
+      "year": "20232024",
+      "course": [
+        {
+          "id": "EI",
+          "curriculumYear": [
+            {
+              "id": "1",
+              "subject": {
+                "name": "Internet Applications",
+                "ects": 8,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "1",
+                    "name": "Carlos"
+                  },
+                  "practical": {}
+                }
+              }
+            },
+            {
+              "id": "2",
+              "subject": {
+                "name": "Web Programming",
+                "ects": 4,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "1",
+                    "name": "Nuno"
+                  },
+                  "practical": {
+                    "NM": "2",
+                    "name": "Filipe"
+                  }
+                }
+              }
+            },
+            {
+              "id": "3",
+              "subject": {
+                "name": "Server-side Programming",
+                "ects": 6,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "1",
+                    "name": "Nuno"
+                  },
+                  "practical": {
+                    "NM": "2",
+                    "name": "Francisco"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "IW",
+          "curriculumYear": [
+            {
+              "id": "1",
+              "subject": {
+                "name": "Systems",
+                "ects": 8,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "3",
+                    "name": "Pedro"
+                  },
+                  "practical": {
+                    "NM": "2",
+                    "name": "Filipe"
+                  }
+                }
+              }
+            },
+            {
+              "id": "2",
+              "subject": {
+                "name": "Networks",
+                "ects": 3,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "1",
+                    "name": "Filipe"
+                  },
+                  "practical": {
+                    "NM": "4",
+                    "name": "Pedro"
+                  }
+                }
+              }
+            },
+            {
+              "id": "3",
+              "subject": {
+                "name": "Mathematics",
+                "ects": 8,
+                "teachers": {
+                  "theoretical": {
+                    "NM": "3",
+                    "name": "Filipe"
+                  },
+                  "practical": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
