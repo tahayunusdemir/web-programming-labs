@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Energy Consumption</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .data-section { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 5px; }
+        .data-section h2 { margin-top: 0; }
+        .data-item { margin-bottom: 10px; }
+        .data-item strong { display: inline-block; width: 150px; }
+    </style>
+</head>
+<body>
+    <h1>Customer Energy Consumption Data</h1>
+
+    <div class="data-section">
+        <h2>Customer Information</h2>
+        <div class="data-item"><strong>Client ID:</strong> <span id="clienteId"></span></div>
+        <div class="data-item"><strong>Name:</strong> <span id="nome"></span></div>
+    </div>
+
+    <div class="data-section">
+        <h2>Address</h2>
+        <div class="data-item"><strong>Street:</strong> <span id="rua"></span></div>
+        <div class="data-item"><strong>Number:</strong> <span id="numero"></span></div>
+        <div class="data-item"><strong>City:</strong> <span id="cidade"></span></div>
+        <div class="data-item"><strong>Postal Code:</strong> <span id="codigoPostal"></span></div>
+    </div>
+
+    <div class="data-section">
+        <h2>Consumption Details</h2>
+        <div id="consumoDetails"></div>
+    </div>
+
+    <div class="data-section">
+        <h2>Additional Information</h2>
+        <div class="data-item"><strong>Rate Type:</strong> <span id="tipoTarifa"></span></div>
+        <div class="data-item"><strong>Energy Supplier:</strong> <span id="fornecedorEnergia"></span></div>
+        <div class="data-item"><strong>Contract Active:</strong> <span id="contratoAtivo"></span></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html> 

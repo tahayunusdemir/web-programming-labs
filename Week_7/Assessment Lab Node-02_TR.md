@@ -22,7 +22,7 @@
   },
   "consumo": [
     {
-      "mes": "Ocak",
+      "mes": "Janeiro",
       "ano": 2023,
       "kWhConsumido": 250,
       "custoTotal": 35.50,
@@ -30,8 +30,8 @@
     }
   ],
   "informacoesAdicionais": {
-    "tipoTarifa": "Konut",
-    "fornecedorEnergia": "Şirket XYZ",
+    "tipoTarifa": "Residencial",
+    "fornecedorEnergia": "Empresa XYZ",
     "contratoAtivo": true
   }
 }
